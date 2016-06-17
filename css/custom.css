@@ -6,7 +6,8 @@ body {
 .jumbotron{
 	text-align: center;
 	color: white;
-	background: url('http://images.cityhdwallpapers.com/2014/3/6/Beautiful%20Skyscraper%20at%20night%20of%20New%20York.jpg');
+	background: url('http://akapribot.appspot.com/aks/img/pics/bg-collage.jpg');
+	background-attachment: fixed;
 }
 .jumbotron p{
 	font-family: 'Oswald', sans-serif;
@@ -24,6 +25,21 @@ body {
 	text-align: center;
 	padding-bottom: 30px;
 	padding-top: 30px;
+}
+#top h1{
+	font-size: 144px;
+	font-weight: bold;
+}
+#top{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 9em;
+}
+#top h3{
+	padding-bottom: 50px;
+}
+.navbar-header{
+	background: url(SaiTejaReddy.jpg) no-repeat left center;
+	padding-left: 0px;
 }
 
 .explore h1
