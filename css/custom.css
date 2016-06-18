@@ -6,7 +6,7 @@ body {
 .jumbotron{
 	text-align: center;
 	color: white;
-	background: url('http://akapribot.appspot.com/aks/img/pics/bg-collage.jpg');
+	background: url(http://akapribot.appspot.com/aks/img/pics/bg-collage.jpg);
 	background-attachment: fixed;
 }
 .jumbotron p{
@@ -60,17 +60,17 @@ body {
 	margin-top: 20px;
 	border-top: 1px solid;
 }
-.img-circle {
-    border-radius: 45%;
+.img-circle{
+	border-radius: 45%;
 }
 footer
 {
 	text-align: center;
-	background-color: #f74c3c;
+	background-image: url(http://akapribot.appspot.com/aks/img/pics/bg-collage.jpg);
 	padding-top: 20px;
-	padding-bottom: 20px;
 	padding-left: 50px;
 	padding-right: 50px;
+	background-attachment: fixed;
 }
 /*Responsive Styling*/
 @media (max-width: 991px){
