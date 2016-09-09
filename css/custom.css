@@ -20,6 +20,18 @@ body {
 #explore-more{
 	background-color: #f5f5f5;
 }
+/*#tagline:hover{
+	font-size: 20%;
+} */
+#name:hover{
+	font-size: 30%;
+}
+#knowme:hover{
+	font-size: 70%;
+}
+#connect:hover{
+	font-size: 70%;
+}
 
 .explore{
 	text-align: center;
