@@ -25,7 +25,24 @@
 
     <!-- Custom styles -->
     <link href="css/custom.css" rel="stylesheet">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
   </head>
 
   <body>
@@ -98,7 +115,7 @@
           <i class="fa fa-suitcase fa-stack-1x fa-inverse"></i>
           </span> 
           <h2 style="color:#e74c3c">Experience</h2>
-          <p>Summer Intern,<br/>Riktam Technlogies.</p><a class="btn btn-info" href="https://in.linkedin.com/in/saitejareddy18"target="_blank" role="button">See More &raquo;</a></p>
+          <p>Summer Intern,<br/>Riktam Technologies.</p><a class="btn btn-info" href="https://in.linkedin.com/in/saitejareddy18"target="_blank" role="button">See More &raquo;</a></p>
         </div>
       </div>
       </div> <!-- /container -->
@@ -137,7 +154,7 @@
           </span> 
           <h2 style="color:#e74c3c">Resume</h2>
           <p>Want an overall summary of me?<br> Take a look at my resume which covers most of the important things.</p>
-          <p><a class="btn btn-info" id="knowme" href="https://drive.google.com/file/d/0BwgUSt0UvOInQWNGZnY0dDMtSjA/view?usp=sharing" target="_blank" role="button">View It &raquo;</a></p>
+          <p><a class="btn btn-info" id="knowme" href="https://drive.google.com/file/d/0BwgUSt0UvOInMzNuYzgtZ2paaFE/view?usp=sharing" target="_blank" role="button">View It &raquo;</a></p>
         </div>
       </div>
       </div> <!-- /container -->
@@ -147,13 +164,13 @@
       <footer id="contact">
         <div class="row">
         <div class="col-md-4">
-          <h5 style="color:#ffffff"><strong>E-mail : saitejareddy26@gmail.com</strong></h5>
+          <h5 style="color:#ffffff"><strong>e-mail : saitejareddy26@gmail.com</strong></h5>
         </div>
         <div class="col-md-4">
           <a id="connect" href="https://in.linkedin.com/in/saitejareddy18" target="_blank" style="color:#ffffff"><span class="link"><strong><img src="http://thomasjfrank.com/v2/wp-content/plugins/social-media-widget/images/default/32/linkedin.png" title="LinkedIn" alt="LinkedIn"> | </strong></span></a>
-          <a id="connect" href="https://github.com/cyborg18" target="_blank" style="color:#ffffff"><span class="link"><strong> <img src="img/github-icon.png" title="GitHub" alt="GitHub"> | </strong></span></a>
-          <a id="connect" href="https://www.quora.com/profile/Sai-Teja-Reddy-13" target="_blank"  style="color:#ffffff"><span class="link"><strong> <img src="http://blogs-images.forbes.com/files/2015/08/Quora_avatar_1439519926-400x400.jpg" height="32" width="32" style="border-radius:50%" title="Quora" alt="Quora"> | </strong></span></a>
-          <a id="connect" href="https://www.facebook.com/teja.saitejareddy" target="_blank" style="color:#ffffff"><span class="link"><strong><img src="http://thomasjfrank.com/v2/wp-content/plugins/social-media-widget/images/default/32/facebook.png" title="Facebook" alt="Facebook"></strong></span></a>
+          <a id="connect" href="https://github.com/cyborg18" target="_blank" style="color:#ffffff"><span class="link"><strong> <img src="img/github-icon.png" title="GitHub" alt="GitHub"></strong></span></a>
+        <!--  <a id="connect" href="https://www.quora.com/profile/Sai-Teja-Reddy-13" target="_blank"  style="color:#ffffff"><span class="link"><strong> <img src="http://blogs-images.forbes.com/files/2015/08/Quora_avatar_1439519926-400x400.jpg" height="32" width="32" style="border-radius:50%" title="Quora" alt="Quora"> | </strong></span></a>
+          <a id="connect" href="https://www.facebook.com/teja.saitejareddy" target="_blank" style="color:#ffffff"><span class="link"><strong><img src="http://thomasjfrank.com/v2/wp-content/plugins/social-media-widget/images/default/32/facebook.png" title="Facebook" alt="Facebook"></strong></span></a>-->
         </div>
         <div class="col-md-4">
           <h6 style="color:#ffffff"><strong>Copyright &copy; 2016, Sai Teja Reddy</strong></h6>
